@@ -1,0 +1,17 @@
+button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* the <style> command is not needed */
+
+/* 'button' is a selector, it shows which elements we are targeting */
+/* 'background-color' is a property, it shows which property we are changing */
+/* 'red' is a value, it shows what we are changing the property to */
+/* 'red' is a color value, it can be a color name, hex code, or rgb value */
+/* 'px' is a unit of measurement, it shows how many pixels we are using */
