@@ -6,7 +6,7 @@
   width: 105px;
   border-radius: 2px;
   cursor: pointer;
-  margin-right: 8px
+  margin-right: 8px;
 }
 
 /* 'subscribe-button' is a class selector, it shows which elements we are targeting */
@@ -47,3 +47,59 @@
 /* A general rule is that when adding border radius to a button for a rounded effect,
  the value should be half of the height of the button. For example, if the height of 
  the button is 36px, the border radius should be 18px. */
+
+/*Lesson 3 start*/
+
+.subscribe-button {
+  transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+/* the transition property takes two values, the first one is what we want to transition, 
+and the second one is how long the transition will take. A typical good transition time is
+0.15s. */
+
+/* :hover means that all the styles in that box only happen once the button is hovered
+over. This is a pseudo class, it adds extra styles over a certain condition. Another 
+example could be active, which changes the styles when the button is pressed.*/
+
+/* opacity is css property that changes how pale or dark the item in question is, and it 
+takes values from 0 to 1. a value of 1 means the element is normal, lower numbers make 
+the object lighter. */
+
+.join-button {
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: rgb(255, 255, 255);
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+/* To add an extra property to transition, you can seperate them with a comma. */
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button {
+  transition: box-shadow 0.15s;
+}
+
+/* box-shadow creates a shadow underneath the box. It has three values, the first value 
+determins the horizontal position of the value, the second value sets the verticle position
+of the shadow, the third value is the blur. The last part is the colour.
+
+/* rgba is very similar to rgb, except it has an a value. the first three values are the same
+as they would be on rgb, the last value, a, is the opacity. */
