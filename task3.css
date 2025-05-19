@@ -1,0 +1,29 @@
+.uber-button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px;
+  width: 105px;
+  transition: opacity 0.15s;
+}
+
+.uber-button:hover {
+  opacity: 0.7;
+}
+
+.amazon-button {
+  background-color: yellow;
+  border-radius: 30px;
+  height: 36px;
+  width: 150px;
+  border-color: yellow;
+  box-shadow: none;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.amazon-button:hover {
+  background-color: rgb(114, 113, 37);
+}
