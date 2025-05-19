@@ -8,3 +8,11 @@
   width: 105px;
 }
 
+.amazon-button {
+  background-color: yellow;
+  border-radius: 30px;
+  height: 36px;
+  width: 150px;
+  border-color: yellow;
+  box-shadow: none;
+}
