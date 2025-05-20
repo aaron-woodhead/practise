@@ -2,8 +2,6 @@
   background-color: rgb(200, 0, 0);
   color: white;
   border: none;
-  height: 36px;
-  width: 105px;
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
@@ -25,8 +23,6 @@
   border-style: solid;
   border-width: 1px;
   color: rgb(41, 118, 211);
-  height: 36px;
-  width: 62px;
   border-radius: 2px;
   cursor: pointer;
 }
@@ -103,3 +99,39 @@ of the shadow, the third value is the blur. The last part is the colour.
 
 /* rgba is very similar to rgb, except it has an a value. the first three values are the same
 as they would be on rgb, the last value, a, is the opacity. */
+
+/*Lesson 4 start*/
+
+/*To get a perfect code for a colour from a website, use two fingers to click on the right of
+the trackpad, and then go to inspect, and find compute, scroll to find the exact value*/
+
+.subscribe-button {
+  margin-left: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
+.tweet-button {
+  vertical-align: top;
+}
+
+/*margin creates an area of empty space around the element. It can be added on all sides.*/
+
+/*Setting a height and width for elements like buttons is not a good idea because if the inside
+text changes, the height and width will not change. Instead, use padding, which will add space
+around the text of the button, and the border will run along the outside of the text.*/
+
+/*Vertical align aligns the element on whichever horizontal you choose*/
+
+.join-button {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+/*The join button has a 1px border, therefore a reduction of 1px on the top and the bottom padding
+is needed to be aligned with the other buttons*/
