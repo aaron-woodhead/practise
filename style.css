@@ -31,8 +31,6 @@
   background-color: rgb(29, 155, 240);
   color: white;
   border: none;
-  height: 36px;
-  width: 74px;
   border-radius: 18px;
   cursor: pointer;
   font-weight: bold;
@@ -135,3 +133,10 @@ around the text of the button, and the border will run along the outside of the 
 
 /*The join button has a 1px border, therefore a reduction of 1px on the top and the bottom padding
 is needed to be aligned with the other buttons*/
+
+.tweet-button {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
