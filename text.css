@@ -1,5 +1,10 @@
+p {
+  font-family: arial;
+}
+
+/*p targets all paragraphs*/
+
 .video-title {
-  font-family: Arial;
   font-size: 18px;
   font-weight: bold;
   width: 300px;
@@ -14,10 +19,25 @@ changes how far apart the text can be before starting a new line, line height
 changes the spacing inbetween lines. */
 
 .video-stats {
-  font-family: arial;
   font-size: 14px;
   color: rgb(96, 96, 96);
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 /*Paragraphs by deafualt come with margins*/
+
+.video-author {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.video-description {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  width: 280px;
+  line-height: 22px;
+  margin-top: 0;
+}
