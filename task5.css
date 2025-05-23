@@ -1,5 +1,24 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .tahoma {
   font-family: tahoma;
   font-weight: bold;
   font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.sale {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 7px;
+}
+
+.sale-end {
+  font-style: italic;
+  color: red;
+  font-family: arial;
 }
