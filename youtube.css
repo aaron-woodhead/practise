@@ -1,0 +1,15 @@
+.thumbnail {
+  width: 300px;
+}
+
+/*img has its own properties that can be applied to it. One of these is called object-fit. This
+changes the size of the object without distorting it when width and height are set. One value could
+be cover, which only shows the selected amount of pixels for that shape, and cuts out some of it. 
+Another could be contain, which shrinks the object until it fits within the space specified, while 
+still keeping the proportions equal. When using cover, we can use another property called
+object-position, to change which part of the shape we see. We can set the values of this to 
+things such as left or right. When using contain, we can set the values of this to things such as
+top and bottom, depending on the shape and what we want.*/
+
+.search-bar {
+}
