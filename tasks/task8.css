@@ -4,4 +4,12 @@
 
 .email {
   margin-bottom: 20px;
+  display: block;
+}
+
+.customer-support {
+  width: 200px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 20px;
 }
