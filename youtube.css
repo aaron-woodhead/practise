@@ -1,5 +1,6 @@
 .thumbnail {
   width: 300px;
+  display: block;
 }
 
 /*img has its own properties that can be applied to it. One of these is called object-fit. This
@@ -10,6 +11,3 @@ still keeping the proportions equal. When using cover, we can use another proper
 object-position, to change which part of the shape we see. We can set the values of this to 
 things such as left or right. When using contain, we can set the values of this to things such as
 top and bottom, depending on the shape and what we want.*/
-
-.search-bar {
-}
