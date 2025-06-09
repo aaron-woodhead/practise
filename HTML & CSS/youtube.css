@@ -1,3 +1,7 @@
+.search-bar {
+  display: block;
+}
+
 .thumbnail {
   width: 300px;
   display: block;
@@ -11,3 +15,10 @@ still keeping the proportions equal. When using cover, we can use another proper
 object-position, to change which part of the shape we see. We can set the values of this to 
 things such as left or right. When using contain, we can set the values of this to things such as
 top and bottom, depending on the shape and what we want.*/
+
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
