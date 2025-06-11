@@ -9,4 +9,26 @@
   width: 50px;
   height: 50px;
   border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.service-box {
+  border-width: 1px;
+  border-style: solid;
+  width: 250px;
+  height: 90px;
+}
+
+.service-question {
+  margin-left: 15px;
+  font-family: arial;
+}
+
+.service-yes {
+  margin-left: 15px;
+  margin-right: 0px;
+}
+
+.service-no {
+  margin-left: 0px;
 }
