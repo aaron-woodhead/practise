@@ -7,6 +7,25 @@
   display: block;
 }
 
+.video-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.video-author {
+  font-size: 12px;
+  color: rgb (96, 96, 96);
+  margin-bottom: 4px;
+}
+
+.video-stats {
+  font-size: 12px;
+  color: rgb (96, 96, 96);
+}
+
 /*img has its own properties that can be applied to it. One of these is called object-fit. This
 changes the size of the object without distorting it when width and height are set. One value could
 be cover, which only shows the selected amount of pixels for that shape, and cuts out some of it. 
@@ -21,4 +40,30 @@ top and bottom, depending on the shape and what we want.*/
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
+}
+
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+
+.profile-picture {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
 }

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="youtube.css" />
@@ -10,7 +16,23 @@
     <input class="search-bar" type="text" placeholder="Search" />
 
     <div class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/mkbhd.jpeg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+
+          <p class="video-author">Marques Brownlee</p>
+
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
 
       <!--<img> is a void element and does not need a closing tag. it takes one element called src
     which means source, and serves as the link attribute
@@ -19,12 +41,6 @@
       <!--the input element is also a void element. We can set many attributes to this, such as the type.
     In this, we could enter things such as text to get a textbox, or checkbox to get a checkbox. 
     Placeholder lets us enter words into the textbox that will dissapear when we start to type.-->
-
-      <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
-
-      <p>Marques Brownlee</p>
-
-      <p>3.4M views &#183; 6 months ago</p>
 
       <!--A paragraph is a block element. A block element is an element which takes up the entire line.
     Regardless of margin, block elements always take up the line. An input is not a block element, and
@@ -35,14 +51,24 @@
 
     <!--<div> is a block element. It can be used to create containers around any element-->
 
+
     <div class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-2 (1).webp" />
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2 (1).webp" />
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/markiplier.jpeg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
 
-      <p>Try Not To Laugh Challenge #9</p>
+          <p class="video-author">Markiplier</p>
 
-      <p>Markiplier</p>
-
-      <p>19M views &#183; 4 years ago</p>
-    </div>
+          <p class="video-stats">19M views &#183; 4 years ago</p>
+        </div>
+      </div>
   </body>
 </html>
