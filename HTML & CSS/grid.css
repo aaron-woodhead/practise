@@ -31,4 +31,6 @@ there is nno space inbetween the two columnns, unlike an inline-block. All colum
   margin-top: 30px;
 }
 
-/*the number next to the fr shows us how much space of the remaining that column gets, when we add another fr value with equal numberr before it, they will share the space equally. The fr value is always shared as a ratio, depending on the numbers*/
+/*the number next to the fr shows us how much space of the remaining that column gets, when we add another fr value 
+with equal numberr before it, they will share the space equally. The fr value is always shared as a ratio, depending on 
+the numbers*/
