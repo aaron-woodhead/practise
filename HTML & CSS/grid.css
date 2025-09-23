@@ -1,0 +1,34 @@
+.div-1 {
+  background-color: lightblue;
+}
+
+.div-2 {
+  background-color: lightpink;
+}
+
+.container-div {
+  display: grid;
+  grid-template-columns: 100px 100px 200px;
+  margin-top: 30px;
+}
+
+/* A div element usually takes up the entire row, in a grid it only takes up the entire column. Additionally,
+there is nno space inbetween the two columnns, unlike an inline-block. All columns are vertically aligned.*/
+
+/*Having an extra div in a grid when no columns are available, it wraps around to a new row.*/
+
+.container-div-2 {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-top: 30px;
+}
+
+/*fr is a grid value that stands for free space, and it takes up the rest of the free space on the page in a column*/
+
+.container-div-3 {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  margin-top: 30px;
+}
+
+/*the number next to the fr shows us how much space of the remaining that column gets, when we add another fr value with equal numberr before it, they will share the space equally. The fr value is always shared as a ratio, depending on the numbers*/
