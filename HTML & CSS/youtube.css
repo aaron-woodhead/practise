@@ -7,6 +7,11 @@
   display: block;
 }
 
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
 .video-title {
   margin-top: 0;
   font-size: 14px;
@@ -37,20 +42,9 @@ top and bottom, depending on the shape and what we want.*/
 
 .video-preview {
   width: 300px;
-  display: inline-block;
   vertical-align: top;
   margin-right: 15px;
-}
-
-.channel-picture {
   display: inline-block;
-  width: 50px;
-  vertical-align: top;
-}
-
-.video-info {
-  display: inline-block;
-  width: 200px;
 }
 
 .profile-picture {
@@ -59,6 +53,7 @@ top and bottom, depending on the shape and what we want.*/
 }
 
 .thumbnail-row {
+  display: inline-block;
   margin-bottom: 12px;
 }
 
