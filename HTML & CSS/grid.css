@@ -1,3 +1,7 @@
+.body {
+  padding-bottom: 1000px;
+}
+
 .div-1 {
   background-color: lightblue;
 }
@@ -28,8 +32,19 @@ column sizes as the ones above it.*/
 
 .container-div-3 {
   display: grid;
-  grid-template-columns: 100px 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
   margin-top: 30px;
+}
+
+.div-3 {
+  height: 200px;
+  background-color: lightpink;
+}
+
+.div-3-1 {
+  background-color: lightblue;
 }
 
 /*the number next to the fr shows us how much space of the remaining that column gets, when we add another fr value 

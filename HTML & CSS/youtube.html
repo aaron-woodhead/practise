@@ -15,60 +15,149 @@
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-picture">
-          <img class="profile-picture" src="channel-pictures/mkbhd.jpeg" />
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/mkbhd.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
 
-          <p class="video-author">Marques Brownlee</p>
+            <p class="video-author">Marques Brownlee</p>
 
-          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
         </div>
       </div>
 
       <!--<img> is a void element and does not need a closing tag. it takes one element called src
-    which means source, and serves as the link attribute
-    thumbnails/ tells the comuputer that we are looking for a file in the folder called thumbnails-->
+      which means source, and serves as the link attribute
+      thumbnails/ tells the comuputer that we are looking for a file in the folder called thumbnails-->
 
       <!--the input element is also a void element. We can set many attributes to this, such as the type.
-    In this, we could enter things such as text to get a textbox, or checkbox to get a checkbox. 
-    Placeholder lets us enter words into the textbox that will dissapear when we start to type.-->
+      In this, we could enter things such as text to get a textbox, or checkbox to get a checkbox. 
+      Placeholder lets us enter words into the textbox that will dissapear when we start to type.-->
 
       <!--A paragraph is a block element. A block element is an element which takes up the entire line.
-    Regardless of margin, block elements always take up the line. An input is not a block element, and
-    so it will not take up the entire line. This is called an inline-block element. Another example is 
-    an image element. These two will be displayed side-by-side. An inline element only appears within 
-    a line. Using the display property, we can change the type of element that it is.-->
+      Regardless of margin, block elements always take up the line. An input is not a block element, and
+      so it will not take up the entire line. This is called an inline-block element. Another example is 
+      an image element. These two will be displayed side-by-side. An inline element only appears within 
+      a line. Using the display property, we can change the type of element that it is.-->
+
+      <!--<div> is a block element. It can be used to create containers around any element-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2 (1).webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/markiplier.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+
+            <p class="video-author">Markiplier</p>
+
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/sssniperwolf.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Crazy TikToks Taken Moments Before DISASTER
+            </p>
+
+            <p class="video-author">SSSniperWolf</p>
+
+            <p class="video-stats">12M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/veritasuim.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+
+            <p class="video-author">Markiplier</p>
+
+            <p class="video-stats">18M views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/CS Dojo.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Subarray Problem
+            </p>
+
+            <p class="video-author">CS Dojo</p>
+
+            <p class="video-stats">519K views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/MrBeast.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I'll Pay For
+            </p>
+
+            <p class="video-author">MrBeast</p>
+
+            <p class="video-stats">141M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <!--<div> is a block element. It can be used to create containers around any element-->
-
-
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-2 (1).webp" />
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-picture">
-          <img class="profile-picture" src="channel-pictures/markiplier.jpeg" />
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            Try Not To Laugh Challenge #9
-          </p>
-
-          <p class="video-author">Markiplier</p>
-
-          <p class="video-stats">19M views &#183; 4 years ago</p>
-        </div>
-      </div>
   </body>
 </html>

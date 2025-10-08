@@ -3,8 +3,7 @@
 }
 
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
 }
 
 .video-info-grid {
@@ -40,13 +39,6 @@ object-position, to change which part of the shape we see. We can set the values
 things such as left or right. When using contain, we can set the values of this to things such as
 top and bottom, depending on the shape and what we want.*/
 
-.video-preview {
-  width: 300px;
-  vertical-align: top;
-  margin-right: 15px;
-  display: inline-block;
-}
-
 .profile-picture {
   width: 40px;
   border-radius: 50px;
@@ -61,4 +53,11 @@ p {
   font-family: Roboto, Arial;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
