@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox practise</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: flex; flex-direction: row">
+      <!--Flexbox makes block elements behave like inline-block elements and only take up space that is needed, unlike grid.
+      They change size depending on the space needed. If one column is taller, it is automatically aligned.-->
+      <div style="background-color: lightblue">div 1 text</div>
+      <div style="background-color: lightpink">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <!--Flexbox makes block elements behave like inline-block elements and only take up space that is needed, unlike grid.
+      They change size depending on the space needed. If one column is taller, it is automatically aligned.-->
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; flex: 1">flex: 1</div>
+      <!--Flex:1 is the same as 1 fr in grid-->
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        justify-content: start;
+      "
+    >
+      <!--Justify-content governs how content is aligned in a flexbox-->
+
+      <!--Flexbox makes block elements behave like inline-block elements and only take up space that is needed, unlike grid.
+      They change size depending on the space needed. If one column is taller, it is automatically aligned.-->
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <!--Flex: 2 is the same as 2 fr in grid-->
+    </div>
+
+    <!--the layout is more rigid in grid, and the width of each box changes depending on the order of the items. 
+    This is different to flex, where the each individual item has its own style to set the width, so the width does
+    not change with order. This makes it a flexible layout.
+  
+    Flex is used over grid when a flexible layout is needed, such as a header like youtube, where the content changes whether
+    someone is logged in or not-->
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        justify-content: space-between;
+      "
+    >
+      <!--Justify-content governs how content is aligned in a flexbox-->
+
+      <!--Space-between is a value given to a flexbox that makes all the content have a space in between each element.-->
+
+      <!--Flexbox makes block elements behave like inline-block elements and only take up space that is needed, unlike grid.
+      They change size depending on the space needed. If one column is taller, it is automatically aligned.-->
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <!--Flex: 2 is the same as 2 fr in grid-->
+    </div>
+
+    <!--the layout is more rigid in grid, and the width of each box changes depending on the order of the items. 
+    This is different to flex, where the each individual item has its own style to set the width, so the width does
+    not change with order. This makes it a flexible layout.
+  
+    Flex is used over grid when a flexible layout is needed, such as a header like youtube, where the content changes whether
+    someone is logged in or not-->
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <!--Align-items governs the vertical alignment of elements, the basic value is stretch, this stretches elements to 
+      fill vertically. There are other properties such as start, which makes them take up only the verticle space needed,
+      and aligns them at the top, end does the same but aligns them at the bottom, or center, which does the same but at
+      the centre.-->
+
+      <!--Justify-content governs how content is aligned in a flexbox-->
+
+      <!--Space-between is a value given to a flexbox that makes all the content have a space in between each element.-->
+
+      <!--Flexbox makes block elements behave like inline-block elements and only take up space that is needed, unlike grid.
+    They change size depending on the space needed. If one column is taller, it is automatically aligned.-->
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <!--Flex: 2 is the same as 2 fr in grid-->
+    </div>
+
+    <!--the layout is more rigid in grid, and the width of each box changes depending on the order of the items. 
+  This is different to flex, where the each individual item has its own style to set the width, so the width does
+  not change with order. This makes it a flexible layout.
+
+  Flex is used over grid when a flexible layout is needed, such as a header like youtube, where the content changes whether
+  someone is logged in or not-->
+  </body>
+</html>
