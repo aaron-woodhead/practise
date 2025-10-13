@@ -11,3 +11,22 @@
   background-color: lightpink;
   width: 75px;
 }
+
+.flexbox-2 {
+  display: flex;
+}
+
+.item-1 {
+  width: 50px;
+  background-color: lightblue;
+}
+
+.item-2 {
+  flex: 1;
+  background-color: lightpink;
+}
+
+.item-3 {
+  width: 75px;
+  background-color: lightblue;
+}
