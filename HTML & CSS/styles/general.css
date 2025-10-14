@@ -1,3 +1,6 @@
+/*a css file to hold all styles for the general layout 
+of the site*/
+
 p {
   font-family: Roboto, Arial;
   margin-top: 0;
@@ -7,3 +10,5 @@ p {
 body {
   margin: 0;
 }
+
+/*Removes all margin from everything in the body*/
